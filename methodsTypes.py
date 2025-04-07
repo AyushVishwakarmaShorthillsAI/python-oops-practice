@@ -37,3 +37,40 @@ student.info()
 s1.info()
 print('both className or ObjectName can be used to call the static methods as they are not properties of class or objectsd')
 
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#----------------------PASSING VALUES TO INIT(CONSTRUCTOR) WHILE CREATING AN OBJECT----------------------------------------
+
+class pen:
+
+    @classmethod
+    def info(cls):
+        return " THis is info about the class pen, made at 3:35 on APril 7th 2025"
+
+    def __init__(self, brand, color, price):
+        self.brand=brand
+        self.color=color
+        self.price=price
+    
+    def getInfo(self):
+        print('brand is :', self.brand)
+        print('color is :', self.color)
+        print('price is :', self.price)
+
+    @staticmethod
+    def temp():
+        return "this is temp static method, can be envoked by any className or methodName"
+    
+
+p1=pen('Luxur', 'blue', '65 Rs')
+p2=pen('Linc', 'black', '15 Rs')
+
+p1.getInfo()
+p2.getInfo()
+
+print(pen.info())
+
+print(pen.temp())
+print(p2.temp())
+
+    
+
