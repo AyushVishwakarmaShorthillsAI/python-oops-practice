@@ -77,3 +77,17 @@ print(type(comp1))
 # command to set upstream : "git branch --set-upstream-to=origin/main main"
 # a simple way to do so : Using '-u' flag
 # git push -u origin main
+
+# -------------------------------------------------------------------------------------------------------------
+# Address of object in "Heap"
+c2=computer()
+c4=computer()
+
+print(id(c2))
+print(id(c4))
+
+# to print the address of anything, use 'id()'
+# each time this program is ran, a new addresses willl be assinged to each object
+
+# Q) WHat is the size of object made ?
+# A) it depends on the variables in it(in the class def), a constructor is responsible for assign the required memory
