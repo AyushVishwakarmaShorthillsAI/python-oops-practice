@@ -43,3 +43,24 @@ print(type(x))
 print(type(str1))
 # see how above types are similar as of type of object of class 'computer'
 print(type(comp1))
+
+#-------------------------------------------------------------------------------------------------------------------------
+# Git pull error 
+# Flow : 
+# 1) created a new repo with a readme file on remote
+# 2) created local files, add them to git, had made a commit, and then trying to push
+# 3) git pull error
+# WHY ERROR ? -> bcoz. local has new commit and remote also has other commit that are not common
+
+# Previously What i Do ?
+# To bypass this, I firstly do everytime : "Git Pull" before adding any files or commiting my changes
+# This is why previously git pull don't give any error
+
+# How to overcome if error comes on git pull for 'divergent commits histories'
+# do : "git pull origin main --rebase"
+# what it means -> 
+# it means after it will pull all the changes to your local and will do rebasing
+# implying that first it will pull the file and add the readme.txt commit to your local git 
+# then it will add the new commit(for local file changes) on top of it(Rebasing) 
+
+# if you do git log, it will have 2 commits instead of one 
