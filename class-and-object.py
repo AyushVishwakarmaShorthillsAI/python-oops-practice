@@ -64,3 +64,16 @@ print(type(comp1))
 # then it will add the new commit(for local file changes) on top of it(Rebasing) 
 
 # if you do git log, it will have 2 commits instead of one 
+
+#------------------------------------------------------------------------------------------------------------------------------------------------------
+# Why set 'Upstream in Git'
+# "upstream" refers to the remote branch that your local branch is tracking 
+# — basically, the branch you’ll pull from and push to by default.
+
+# "git pull" need to know : Pull from where? Which remote? Which branch?
+# Syntax : 'git pull <remote branch>
+# Thus, git pull and git push will not work, they need to specify the branch name
+
+# command to set upstream : "git branch --set-upstream-to=origin/main main"
+# a simple way to do so : Using '-u' flag
+# git push -u origin main
