@@ -44,7 +44,7 @@ print(type(str1))
 # see how above types are similar as of type of object of class 'computer'
 print(type(comp1))
 
-#-------------------------------------------------------------------------------------------------------------------------
+#--------------------------------Git Concepts Doubts Clearing---------------------------------------------------------------------
 # Git pull error 
 # Flow : 
 # 1) created a new repo with a readme file on remote
