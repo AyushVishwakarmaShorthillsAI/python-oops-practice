@@ -31,3 +31,9 @@ s1=student()
 s2=student()
 
 student.getSchool()
+
+# how to call the static methods, using 'class' or 'object' name ?
+student.info()
+s1.info()
+print('both className or ObjectName can be used to call the static methods as they are not properties of class or objectsd')
+
