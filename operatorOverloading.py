@@ -77,3 +77,48 @@ print(s4.m1, s4.m2)
 # but printing thing sonly
 
 s1 > s2
+
+
+# ----------------------------------------------------------------------------------------------------
+# changing the behaviour of print(class Object)
+# generally print('className) gives type of the vraible
+
+intVar=9
+print(intVar)          # Prints the value
+print(intVar.__str__())
+
+
+# Note : can't use __str__() with class while using print()
+class x:
+    pass
+print(x)               # Prints the type(for a class, since its has not been given space in memory)
+
+x1=x()
+print(x1.__str__())
+print(x1)              # Prints the type with Address(for an object)
+
+# Note : whenever u call 'print(IntVar)' it will call 'print(IntVar.__str__())' to get the value/address/type
+# .__str__() function is automatically called on using any variable
+
+# Thus the __str__() behaves differently while using print() with a variable
+# if you want to print the value of an object of class, just change/Override this variable
+
+print('---------Changing the Behaviour of object at print() -------------------------')
+
+class y:
+    def __init__(self, mag):
+        self.val=mag
+
+    def __str__(self):
+        return str(self.val)           # if we don't return str val, it can't be printed
+
+y1=y(87)
+print(y1) 
+
+# can easily print a integer returned value, easily
+class temp:
+    def fn(self):
+        return 8
+    
+temp1=temp()
+print(temp1.fn())
