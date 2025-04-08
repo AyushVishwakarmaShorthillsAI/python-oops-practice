@@ -4,7 +4,7 @@ class student:
     def __init__(self):
         self.rollNo=1
         self.name='AYush'
-        self.lap=self.Laptop()
+        self.lap=student.Laptop()
 
     
     class Laptop:
@@ -21,6 +21,9 @@ class student:
         print(f"Laptop processor: {self.lap.proceesor}")
         print(f"Laptop ram size : {self.lap.ram}")
 
+
+# Q) Why we are able to use Laptop() and make an obejct before defining the Laptop class itself ? Also, the flow here in python is from Top to Down
+# A) bcoz, the lines of codes inside __init__ are called at the time of its object creation only i.e at s1=student()
 
 s1=student()
 print(f'Info of laptop for student : {s1.name}, roll no. is {s1.rollNo}')
