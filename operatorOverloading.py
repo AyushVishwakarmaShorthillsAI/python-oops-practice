@@ -48,12 +48,32 @@ class Student:
 
         s3=Student(x,y)
         return s3
+    
+    def __gt__(self, other):
+        if(self.m1 > other.m1 and self.m2 > other.m2):
+            print('A winds')
+        elif((self.m1 > other.m1 and self.m2 < other.m2 )or (self.m1 < other.m1 and self.m2 > other.m2 )):
+            print('Draw')
+        else:
+            print('B wins')
+    
+    # comparing students with '>'
+    # if both the marks of student A > studetn B,  -> A wins
+    # else B. wins
+    # if one mark is greater and ohter is smalller then Draws
 
     
-s1=Student(58, 69)
+s1=Student(66, 69)
 s2=Student(60, 65)
 
 s3=s1+s2
 s4=s1-s2
 print(s3.m1, s3.m2)
 print(s4.m1, s4.m2)
+
+# same thing can be done with *,/,>=, <=
+
+# notice we had also changed the retudrn type of '>' symbol, now its not returning bool
+# but printing thing sonly
+
+s1 > s2
