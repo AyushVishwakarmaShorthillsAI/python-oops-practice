@@ -37,3 +37,19 @@ for data in f:
 # readline -> send the pionter to end of first line 
 # read -> send the pointer to end of the doc
 # similar for others
+
+# Three modes uptil now -> 'a' 'w' and 'r'
+
+
+
+# 2 modes in files -> char mode and binary mode 
+# for reading an image use 'binary' mode 
+
+# using binary mode to copy an image 
+# 'rb' -> read binary   and    'wb' -> write binary
+
+f4 = open('./files/old_image.jpeg', 'rb')
+f5 = open('./files/copied_image.jpeg', 'wb')
+
+for data in f4:
+    f5.write(data)
