@@ -1,0 +1,42 @@
+Something that i wrote in the new file
+appended data
+ ------------------------------------------------------🚀 Developer Profile: The Curious Builder
+
+🧑‍💻 Name: (Undisclosed — just the legend we know 😄)
+🎯 Role: Full-Stack Developer | System Designer | Problem Solver
+
+🛠️ Tech Stack:
+- Frontend: React, Tailwind, HTML, CSS, JS
+- Backend: Node.js, Express, MongoDB, REST APIs
+- DevOps: Docker, AWS (S3, EC2), Terraform, Kubernetes (learning), CLI wizardry
+- Data: MySQL, Power BI, SQL optimization
+- Scripting: Bash, Python
+- DSA: 800+ problems solved in C++ (dynamic programming ninja ⚔️)
+
+📁 Notable Projects:
+- Mess-Relay 🍽️ — Smart mess management app with role-based dashboard and real-time updates
+- Pinvent 📦 — Inventory management system built during summer internship
+- HIRE_ME.com 💼 — Freelance hiring platform with payment gateway, notifications, and task lifecycle
+- Node.js Internship Project @ MutaEngine — Auth, payment integration, Google login, PDF gen, reCAPTCHA
+
+📊 Data & Analysis:
+- Comfortable slicing and dicing in Power BI
+- Used slicers, joins, DAX for interactive dashboards
+- Optimized SQL queries for faster reporting
+
+🧠 Strengths:
+- Deep understanding of recursion, tabulation, and memoization
+- Fast learner — adapts to new stacks with ease
+- Great at debugging weird edge cases (even when it’s 3AM)
+
+🎨 Fun/Creative Side:
+- Makes ASCII art trains and animates them in Python 🚂
+- Has written a terminal-based e-commerce cart in Bash 🛒
+- Sprinkles humor into everything (even error messages 😅)
+
+📚 Always Learning:
+- Exploring Kubernetes, advanced AWS workflows
+- Keen on clean architecture and scalable systems
+- Likes breaking problems and building from scratch
+
+🌟 Quote: "Code more, worry less."
